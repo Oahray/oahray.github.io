@@ -2,6 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Karla);
 
 body {
+  background-color: black;
+  color: white;
+  }
+ 
+#quote {
   font-family: "Karla", sans-serif;
   text-align: center;
   font-size: 50px;
