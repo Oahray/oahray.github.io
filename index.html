@@ -1,12 +1,30 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<script type="text/javascript" src="/js/typed.js"></script>
-		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<title>Unrepentantly Oahray</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body>
-		<div class="typing-animation">
-			<span id="quote"></span>
+		<div class="container">
+			<div class="typing-animation">
+				<h4> Welcome... <span id="quote"></span></h4>
+			</div>
 		</div>
+		<script src="js/typed.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script>
+			function isMobile () {
+				return $("#quote").is(':visible');
+			}
+			$(function(){
+				$("#quote").typed({
+					strings: ["Hi! Oare is my name,<br/>design is my game.", "I am awesome.", "This site is under construction."],
+					typeSpeed: 40,
+					loop : true,
+				});
+			});
 	</body>
 <html>
