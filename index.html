@@ -1,87 +1,89 @@
-<html>
-	<head>
-		<title>Unrepentantly Oahray</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oahray</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.9/css/ripples.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-	<body>
-		<!-- Dropdown Structure -->
-		<ul id="dropdown1" class="dropdown-content">
-		  <li><a href="#!">About Me</a></li>
-		  <li class="divider"></li>
-		  <li><a href="#!">Portfolio</a></li>
-		  <li class="divider"></li>
-		  <li><a href="#!">Interests and Hobbies</a></li>
-		</ul>
-		<nav>
-		    <div class="nav-wrapper">
-		      <a href="#!" class="brand-logo">Oahray</a>
-		      <ul class="right hide-on-med-and-down">
-		        <li><a href="https://github.com/oahray">Github</a></li>
-		        <!-- Dropdown Trigger -->
-		        <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">list</i></a></li>
-		      </ul>
-		    </div>
-		</nav>
-		
-		<div class="fixed-action-btn horizontal click-to-toggle">
-			    <a class="btn-floating btn-large red">
-			      <i class="material-icons">menu</i>
-			    </a>
-			    <ul>
-			      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-			      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-			      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-			      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-			    </ul>
-			</div>
+<body>
+    <header>
+        <div class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Being Oahray</a>
+          </div>
+          <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/signup">About Me</a></li>
+              <li><a href="/signup">My portfolio</a></li>
+              <li><a href="/signup">My Interests</a></li>
+              <li><a href="/signup">See project on Github</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </header>
 
-		<div class="container-fluid">
-			<div class="typing-animation">
-				<h4> Welcome... <span id="quote"></span></h4>
-			</div>
-		</div>
-		
-		<div>
-			<h4> Hobbies and likes </h4>
-			<div class="list-group">
-			  <div class="list-group-item">
-			    <div class="row-picture">
-			      <img class="circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
-			    </div>
-			    <div class="row-content">
-			      <h4 class="list-group-item-heading">FC Barcelona</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">                   
+                <div class="typing-animation">
+                    <h3 align="center" class="text-muted"><strong> Welcome... <span id="quote"></span></strong></h3>
+                </div>
 
-			      <p class="list-group-item-text">Of course I only go for the best!</p>
-			    </div>
-			  </div>
-				
-			  <div class="list-group-separator"></div>
-				
-			  <div class="list-group-item">
-			    <div class="row-picture">
-			      <img class="circle" src="http://lorempixel.com/56/56/people/6" alt="icon">
-			    </div>
-			    <div class="row-content">
-			      <h4 class="list-group-item-heading">Movies</h4>
+                <br/><br/><br/>
 
-			      <p class="list-group-item-text">Good ones only.</p>
-			    </div>
-			  </div>
-			</div>
-		</div>
+                <h3 align="center" class="text-muted">
+                    <strong>
+                        Seamlessly manage and track your documents online.
+                    </strong>
+                </h3>
 
-		<script src="js/typed.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="js/dropdown.js"></script>
-	</body>
-<html>
+                <br/><br/><br/>
+
+                <h3 align="center" class="text-muted">
+                    <strong>
+                        Seamlessly manage and track your documents online.
+                    </strong>
+                </h3>
+
+                <br/><br/><br/>
+
+               
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <strong>
+            Forever Inspired by GGBLOG.
+        </strong>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.9/js/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.9/js/ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $.material.init();
+    </script>
+
+</body>
+
+</html>
