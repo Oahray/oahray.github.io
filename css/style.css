@@ -10,6 +10,20 @@
   color: #f9f9f9;
 }
 
+footer{
+    position: fixed;
+    text-align: center;
+    background: #c5c5c5;
+    padding: 15px;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+a, a:hover, a:active{
+    text-decoration: none;
+}
+
 nav {
   @extend .teal, .accent-4;
 }
