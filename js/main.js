@@ -1,9 +1,7 @@
-
 $(function(){
-	$("#quote").typed({
-		strings: ["My name is Oahray,<br/>I like creating stuff.", "I'd have loved to show you things... but", "This site is under construction, please hang on.", "Ok... Bye.", "No. Wait... Let's start over."],
-		typeSpeed: 70,
-		loop : true,
-	});
-});
-
+      $("#quote").typed({
+        strings: ["you can also call me Ray.", "I am proudly Nigerian.", "design is my game.", "I know I'm awesome.", "this site is under construction."],
+        typeSpeed: 70,
+        loop : true
+      });
+  });
